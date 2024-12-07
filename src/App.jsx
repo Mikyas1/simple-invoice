@@ -84,7 +84,7 @@ function App() {
             <p className="InvoiceNo">INV-00{iNo}</p>
             <div className="BalanceDue">
               <p>Balance Due</p>
-              <p className="TotalDue">$2,000.00</p>
+              <p className="TotalDue">${formatNumber(totalPrice)}</p>
             </div>
           </div>
         </div>
